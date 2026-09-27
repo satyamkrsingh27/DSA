@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
 struct Node{
     int data;
     struct Node* next;
@@ -6,7 +8,7 @@ struct Node{
 struct Node* head=NULL;
 struct Node* newnode;
 struct Node* temp;
-void main(){
+int main(){
     newnode=(struct Node*)malloc(sizeof(struct Node));
     printf("Enter the data: ");
     scanf("%d",&newnode->data);
@@ -25,10 +27,6 @@ void main(){
     while(choice==1){
         printf("%d ",temp->data);
         temp=temp->next;
-
-
     }
-    getch();
-
-
+    return 0;
 }

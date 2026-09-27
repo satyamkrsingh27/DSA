@@ -1,0 +1,17 @@
+# Ignore compiled Windows executables
+*.exe
+*.dll
+*.obj
+*.o
+*.out
+
+# Ignore common editor/system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore build folders
+build/
+bin/
+Debug/
+Release/
